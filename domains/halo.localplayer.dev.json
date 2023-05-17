@@ -1,15 +1,23 @@
 {
   "$schema": "../schemas/domain.schema.json",
 
-  "domain": "localplayer.dev",
-  "subdomain": "halo",
+  "description": "Project Description",
+
+  "domain": "is-not-a.dev",
+  "subdomain": "example",
 
   "owner": {
-    "email": "ethan@xboxlive.co.uk"
+    "repo": "https://github.com/thehaloethans/register",
+    "email": "hello@xboxlive.co.uk"
   },
 
   "record": {
-    "A": ["85.239.250.3"]
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "AAAA": ["::1", "::2"],
+    "CNAME": "zmverify.zoho.eu",
+    "MX": ["mx1.example.com", "mx2.example.com"],
+    "NS": ["ns1.example.com", "ns2.example.com"],
+    "TXT": ["zoho-verification=zb90757846.zmverify.zoho.eu"]
   },
 
   "proxy": false
