@@ -1,0 +1,16 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+
+  "domain": "localplayer.dev",
+  "subdomain": "halo",
+
+  "owner": {
+    "email": "ethan@xboxlive.co.uk"
+  },
+
+  "record": {
+    "A": ["85.239.250.3"]
+  },
+
+  "proxy": false
+}
